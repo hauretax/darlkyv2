@@ -1,6 +1,10 @@
-we find that sql return errors on http://192.168.56.101/?page=member
+# situation
 
-wetry sql requests with an id as it is mandatory and 
+## http://192.168.56.101/?page=member
+
+we find that sql return errors 
+
+we try sql requests with an id as it is mandatory and 
 we can make a union to continue the request and gather more info
 we look for infos on information information_schema
 
@@ -24,4 +28,16 @@ so we encrypte in sha256 fortytwo
 https://md5decrypt.net/Sha256/#answer
 https://md5decrypt.net/#answer
 
-fix : use php pdo to clean sql an orm and une requete perpare 
+# problem
+
+All sensitive information stored in the database is accessible to anyone.
+
+# solution
+
+Use an ORM (Object-Relational Mapping) library: An ORM can help to abstract away the SQL and provide a safe and secure way to interact with the database.
+
+Validate and sanitize user input: By validating and sanitizing user input, you can prevent malicious code from being included in SQL statements.
+
+Use a whitelist approach: Only allow specific, known good inputs and prevent all other inputs.
+
+In SQL, we can specify and limit access to certain tables based on the IP that makes the request. This prevents if a vulnerability is discovered by hacker, the entire database from being usable.

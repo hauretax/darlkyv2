@@ -14,7 +14,7 @@ refaire hidden flag script
 
 
 
-1 sql basic | usr sql injection         ok      10
+1 sql basic | usr sql injection         ok      10     d
 2 sql avance | image sal injection      ok      6
 3 include | deep find                   ok      11
 4 xss basic | xss feedback              ok      0
