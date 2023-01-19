@@ -1,0 +1,37 @@
+missing:
+
+image upload
+include ?? ../..//../etc/passwd
+
+xss advanced 
+
+bruteforce manque
+image upload 
+
+
+Done:
+refaire hidden flag script
+
+
+
+1 sql basic | usr sql injection         ok      10
+2 sql avance | image sal injection      ok      6
+3 include | deep find                   ok      11
+4 xss basic | xss feedback              ok      0
+5 xss advanced |  xss media             ok      3
+6 cookie | cookie admin                 ok      7
+7 spoof | header.txt                    ok      4
+8 admin | admin                         ok      12
+9 bruteforce | bruteforce               ok      13
+10 file upload | image upload           ok      9
+11 redirect | redirect                  ok      8
+12 hidden file | hidden_flag            ok      2
+13 survey   | survey_form               ok      5
+14 recover| mail change                 ok      1  
+
+
+curl -X POST 'http://10.2.8.38/?page=upload' -F 'uploaded=@/Users/lgarcia-/test.php;type=image/jpeg' -F 'Upload=Upload'
+
+
+
+bonus

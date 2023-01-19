@@ -1,0 +1,5 @@
+on http://192.168.56.101/?page=survey# 
+we can change option value and server don t verify if value is between 1 and 10
+server is supose to verify each user interaction . 
+03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa 
+fix : verify value on server 
