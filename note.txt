@@ -22,7 +22,7 @@ refaire hidden flag script
 6 cookie | cookie admin                 ok      7
 7 spoof | header.txt                    ok      4
 8 admin | admin                         ok      12
-9 bruteforce | bruteforce               ok      13
+9 bruteforce | bruteforce               ok      13     d
 10 file upload | image upload           ok      9
 11 redirect | redirect                  ok      8
 12 hidden file | hidden_flag            ok      2

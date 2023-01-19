@@ -1,6 +1,17 @@
-# brutforce
+# situation
 
-i did js programme to brutforce on signin page.
-idea her is to try some password and return the good password when page stop send wrong image.
+## http://192.168.56.101/?page=signin
 
-fix : use strong password  or limit who many time a user can retry 
+The idea is to try a list of passwords on a login address
+- run brutforce.js
+- wait
+
+
+# problem
+
+We can try an infinite number of times and therefore try a huge amount of passwords
+
+
+# solution
+
+ rate-limiting, CAPTCHA, and two-factor authentication can also be implemented to further secure the form and protect against potential attacks. Force users to use stronger passwords.

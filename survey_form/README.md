@@ -2,7 +2,6 @@
 
 ## http://192.168.56.101/index.php?page=survey
 
-
 ```
 <select name="valeur" onchange="javascript:this.form.submit();">
 						<option value="1">1</option>
