@@ -26,7 +26,7 @@ refaire hidden flag script
 10 file upload | image upload           ok      9
 11 redirect | redirect                  ok      8
 12 hidden file | hidden_flag            ok      2
-13 survey   | survey_form               ok      5
+13 survey   | survey_form               ok      5      d
 14 recover| mail change                 ok      1      d
 
 

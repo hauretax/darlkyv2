@@ -1,6 +1,6 @@
 # situation
 
-## sur http://192.168.56.101/?page=recover#
+## http://192.168.56.101/?page=recover#
 
 The HTML code of the form looks like this :
  ```
