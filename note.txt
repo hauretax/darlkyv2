@@ -15,10 +15,10 @@ refaire hidden flag script
 
 
 1 sql basic | usr sql injection         ok      10     d
-2 sql avance | image sal injection      ok      6
+2 sql avance | image sal injection      ok      6      d
 3 include | deep find                   ok      11
 4 xss basic | xss feedback              ok      0
-5 xss advanced |  xss media             ok      3
+5 xss advanced |  xss media             ok      3      d
 6 cookie | cookie admin                 ok      7
 7 spoof | header.txt                    ok      4
 8 admin | admin                         ok      12
