@@ -5,7 +5,8 @@
 The idea is to try a list of passwords on a login address
 - run brutforce.js
 - wait
-
+http://192.168.56.101/?page=signin&username=admin&password=shadow&Login=Login
+work
 
 # problem
 
